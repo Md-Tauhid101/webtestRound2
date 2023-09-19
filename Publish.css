@@ -1,0 +1,129 @@
+/* rgb(39, 40, 41) */
+/* #00A6EB */
+/* #a8a9b4 */
+/* #173b6c */
+/* #2a2a2c */
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-color{
+    background-color: black;
+    width: 17%;
+    height: 100dvh;
+    position: sticky;
+    top: 0;
+}
+
+.photo{
+    border: 10px solid rgb(39, 40, 41);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(principal0.png);
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.name{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.items{
+    color: #a8a9b4;
+    font-size: 1.2rem;
+    margin: 5px 0px 5px 0px;
+    padding: 15px 20px 15px 20px;
+    transition: 0.3s;
+}
+
+.items:hover{
+    color: rgb(0, 166, 235);
+    box-shadow: 0px 0px 60px rgba(0,166,235,0.7);
+}
+
+.about{
+    margin-left: 30px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.about-photo{
+    background-image: url(principal0.png);
+    width: 400px;
+    height: 350px;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+
+.about-items{
+    margin: 30px;
+    color: #2a2a2c;
+}
+
+.about-items::before{
+    content: "\00BB";
+    color: #8ec8e1;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.background{
+    background-color: rgba(118, 202, 238, 0.1);
+
+}
+
+.list{
+    margin-left: 30px;
+    width: 83%;
+}
+
+.list li{
+    padding: 10px;
+    width: 1200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list li::before{
+    content: "\00BB";
+    color: #8ec8e1;
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.copywrite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.copywrite li{
+    color: white;
+    font-weight: 10;
+}
